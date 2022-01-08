@@ -1,0 +1,5 @@
+.a {
+  font-size: larger;
+  composes: pl-4 from "@rtd/stylesheet/spacing.css";
+  composes: m-4 from "@rtd/stylesheet/spacing2.css";
+}

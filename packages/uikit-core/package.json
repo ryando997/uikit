@@ -1,0 +1,14 @@
+{
+  "name": "@rtd/uikit-core",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "yarn build:types && node ./scripts/build.js",
+    "build:types": "tsc src/**/*.ts --declaration --emitDeclarationOnly --outDir types"
+  },
+  "devDependencies": {
+    "blueimp-md5": "^2.19.0"
+  }
+}

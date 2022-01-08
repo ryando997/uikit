@@ -1,0 +1,31 @@
+{
+  "name": "rtd",
+  "version": "1.0.0",
+  "description": "A UI Library Support Full Accessibility",
+  "main": "index.js",
+  "repository": "git@github.com:ryando997/uikit.git",
+  "author": "Ryan (Trọng Đỗ)",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build:core": "yarn workspace @rtd/uikit-core build",
+    "build:stylesheet": "yarn workspace @rtd/stylesheet build",
+    "build:uikit": "yarn workspace @rtd/uikit build"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.10",
+    "fast-glob": "^3.2.9",
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.0",
+    "jest": "^27.4.5",
+    "lerna": "^4.0.0",
+    "path": "^0.12.7",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.4"
+  },
+  "packageManager": "yarn@3.1.1"
+}

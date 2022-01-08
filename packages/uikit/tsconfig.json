@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsxFactory": "_jsx",
+    "target":"ES2015"
+  }
+}

@@ -1,0 +1,12 @@
+.a {
+  background-color: aliceblue;
+  composes: ml-auto from "@rtd/stylesheet/spacing.css";
+}
+
+.b {
+  font-size: large;
+  composes: a;
+}
+.c {
+  composes: b;
+}
